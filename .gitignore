@@ -1,0 +1,36 @@
+# Ignore arquivos de build e dependências do .NET
+bin/
+obj/
+*.dll
+*.pdb
+*.exe
+*.app
+*.ipa
+*.so
+*.dylib
+*.a
+*.o
+
+# Ignore arquivos de configuração do usuário do Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore pacotes e dependências
+packages/
+node_modules/
+
+# Ignore arquivos de log e temporários
+*.log
+*.tmp
+*.swp
+
+# Ignore arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Ignore arquivos de configuração do Power BI
+*.pbix
+*.pbit
